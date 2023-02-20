@@ -1,0 +1,16 @@
+Package: gogogadget
+Title: Loads gogogadget functions
+Version: 0.0.1
+Authors@R: 
+    person("Z", "Thompson", , "z2thet_2000@yahoo.com", role = c("aut", "cre") )
+Description: More about what this package does - it loads awesome functions
+    that help with exploratory data analysis like finding variables in data frames
+    and exporting data to excel files to visually inspect.
+License: GPL (>= 2)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
