@@ -9,7 +9,9 @@ Description: More about what this package does - it loads awesome functions
 License: GPL (>= 2)
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.2.3
+RoxygenNote: 7.3.2
+Imports:
+    janitor
 Suggests: 
     knitr,
     rmarkdown
