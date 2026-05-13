@@ -1,0 +1,62 @@
+---
+title: "GoGoGadget_An_Introduction"
+author: "Zachary Thompson"
+date: "`r Sys.Date()`"
+output:
+  pdf_document: default
+  html_document: default
+vignette: >
+  %\VignetteIndexEntry{Introduction_to_MoffittFunctions}
+  %\VignetteEngine{knitr::rmarkdown} 
+  %\VignetteEncoding{UTF-8}
+---
+
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+ #library(gogogadget)
+```
+
+
+
+# Overview
+
+Gogogadget is a collection of useful functions designed to assist in analysis. 
+ 
+- Functions
+  gogogadgetexport
+  gogofindvar
+  gogostr
+  
+- Example Dataset
+  - Bladder_Cancer
+
+
+## Getting Started
+
+```{r 2, echo=TRUE, message=FALSE, results='hide'}
+# Loading MoffittFunctions and Example Dataset
+ library(MoffittFunctions)
+ data("Bladder_Cancer")
+
+# Loading dplyr for this vignette code
+library(dplyr)
+```
+
+
+## Example Dataset
+
+The `Bladder_Cancer` dataset is a real world example dataset used throughout this vignette and most example in the documentation. The dataset is cleaned, using factor variables for categorical variables, and also using labels for all variables (created by the `Hmisc::label()` function).
+
+```{r 3, echo=TRUE, message=FALSE, results='hide'}
+ 
+str("Bladder_Cancer")
+ 
+```
+

@@ -5,6 +5,5 @@
 #' @section Gogogogadet functions:
 #' The gogogadet functions, gogofindvar, gogogadetexport, gogostr, gogooperdir
 #'
-#' @docType package
-#' @name GOGOGADET
-NULL
+#' @keywords internal
+"_PACKAGE"
