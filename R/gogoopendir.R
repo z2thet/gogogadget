@@ -5,7 +5,7 @@
 #' being passed to Explorer. This helps avoid failures when `getwd()`
 #' returns a UNC/network path with forward slashes.
 #'
-#' @param dir A directory path. Defaults to the current working directory.
+#' @param dir A directory path. Defaults to the current working directory ok.
 #'
 #' @return No returned value. Called for its side effect of opening the folder.
 #' @export
